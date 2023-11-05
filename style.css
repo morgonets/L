@@ -1,0 +1,16 @@
+.countdown {
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

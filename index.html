@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My4</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="lol.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="countdown">
+    <div class="timer">
+        <span id="days">00</span>
+        <span id="hours">00</span>
+        <span id="minutes">00</span>
+        <span id="seconds">00</span>
+    </div>
+    <div class="controls">
+        <label for="date-input">Set Date:</label>
+        <input type="datetime-local" id="date-input">
+        <button onclick="startCountdown()">Start</button>
+    </div>
+</div>
+</body>
+</html>
